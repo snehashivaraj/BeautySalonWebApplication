@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>salon</display-name>
+  <welcome-file-list>
+    <welcome-file>Registration.jsp</welcome-file>
+    <welcome-file>contactl.jsp</welcome-file>
+    <welcome-file>Appointment.jsp</welcome-file>
+    <welcome-file>Home.jsp</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>Contact.jsp</welcome-file>
+    <welcome-file>Homel.jsp</welcome-file>
+    <welcome-file>Services.jsp</welcome-file>
+    <welcome-file>Servicesl.jsp</welcome-file>
+    <welcome-file>forgot.jsp</welcome-file>
+    <welcome-file>Thankyou.jsp</welcome-file>
+    <welcome-file>appadd.jsp</welcome-file>
+    <welcome-file>Ret.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+ <servlet-name>reg</servlet-name>
+ <servlet-class>reg</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>reg</servlet-name>
+ <url-pattern>/reg</url-pattern>
+ </servlet-mapping>
+<servlet>
+ <servlet-name>Login</servlet-name>
+ <servlet-class>Login</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Login</servlet-name>
+ <url-pattern>/Login</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>appointment</servlet-name>
+ <servlet-class>appointment</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>appointment</servlet-name>
+ <url-pattern>/appointment</url-pattern>
+ </servlet-mapping> 
+ <servlet>
+ <servlet-name>contact</servlet-name>
+ <servlet-class>contact</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name> contact </servlet-name>
+ <url-pattern>/contact</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>Forgot</servlet-name>
+ <servlet-class>Forgot</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name> Forgot </servlet-name>
+ <url-pattern>/Forgot</url-pattern>
+ </servlet-mapping>
+ <servlet>
+ <servlet-name>Appadd</servlet-name>
+ <servlet-class>Appadd</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Appadd</servlet-name>
+ <url-pattern>/Appadd</url-pattern>
+ </servlet-mapping> 
+ <servlet>
+    <servlet-name>Billing</servlet-name>
+    <servlet-class>Billing</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Billing</servlet-name>
+    <url-pattern>/Billing</url-pattern>
+</servlet-mapping>
+</web-app>
