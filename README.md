@@ -1,4 +1,4 @@
-# Beauty Salon Web Application 💇‍♀️💻
+# Beauty Salon Web Application 
 
 A dynamic and user-friendly **Beauty Salon Appointment Booking Web Application** built using **Java, JSP, Servlets, HTML, CSS, Bootstrap, JavaScript**, and **MySQL**. Developed as part of an academic project to simulate a real-time salon management system with both **Customer** and **Staff** modules.
 
